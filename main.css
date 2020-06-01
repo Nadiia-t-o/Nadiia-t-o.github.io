@@ -1,4 +1,10 @@
 body {
+    background: lavender;
+}
+
+div {
     background: red;
-    color: silver;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 30px;
 }
