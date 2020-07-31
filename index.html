@@ -3,14 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,900&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,800&amp;subset=cyrillic" rel="stylesheet">
+    <title>Test task</title>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="main.css">
 </head>
 <body>
-    <div class="red_block"></div>
-    <div class="red_block"></div>
-    <div class="red_block"></div>
+    <section id="main" class="main">
+        <div class="container">
+            <div class="top-bar">
+                <div class="logo-wrap">
+                    <img src="/img/logo.png" alt="Logo" class="top-bar__logo">
+                </div>
+                <nav role="navigation" class="d-flex">
+                    <div class="menu-toggle">
+                        <input type="checkbox" class="top-bar__checkbox" />
+                        <div class="top-bar__toggler"></div>
+                        <div class="top-bar__toggler"></div>
+                        <div class="top-bar__toggler"></div>
+                        <div class="top-bar__menu d-flex">
+                            <a href="#" class="top-bar__item">Home</a>
+                            <a href="#" class="top-bar__item">Explore</a>
+                            <a href="#" class="top-bar__item">About</a>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+
+            <div class="main-section d-flex">
+                <h1 class="main-section__title">
+                    Stynning countryside near Rostov
+                </h1>
+                <div class="video">
+                    <iframe class="video__screen" src="https://www.youtube.com/embed/wX5c_-ln9Pk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <div class="video__overlay">
+                        <img class="video__poster" src="img/video.png">
+                        <div class="video__play-btn"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="screen__selector d-flex">
+                <div class="screen__selector-item"></div>
+                <div class="screen__selector-item"></div>
+                <div class="screen__selector-item"></div>
+                <div class="screen__selector-item"></div>
+                <div class="screen__selector-item"></div>
+                <div class="screen__selector-item"></div>
+                <div class="screen__selector-item"></div>
+            </div>
+        </div>
+    </section>
+    
+    <script src="index.js"></script>
 </body>
 </html>
