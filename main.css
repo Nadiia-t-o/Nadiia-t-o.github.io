@@ -127,7 +127,7 @@ body {
 }
 
 .video__play-btn:focus,:hover {
-    border-color: transparent transparent transparent #BDC9D2;
+    border-color: transparent transparent transparent #C9A679;
 }
 
 .screen__selector {
